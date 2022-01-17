@@ -61,7 +61,7 @@ def main():
     global width, rows
     width = 500
     rows = 20
-    win = pygame.dysplay.set_mode((width, width))
+    win = pygame.display.set_mode((width, width))
     s = snake((255, 0, 0), (10, 10))
     flag = True
     clock = pygame.time.Clock()
